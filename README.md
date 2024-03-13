@@ -1,17 +1,42 @@
 # Задача Купи слона
-## Json из примера для тестирования локального тестирования из Postman
+## Json для локального тестирования из Postman
 ```json
 {
-  "request": {
-    "command": "закажи пиццу на улицу льва толстого, 16 на завтра",
-    "original_utterance": "закажи пиццу на улицу льва толстого, 16 на завтра"
+  "meta": {
+    "locale": "ru-RU",
+    "timezone": "UTC",
+    "client_id": "ru.yandex.searchplugin/7.16 (none none; android 4.4.2)",
+    "interfaces": {
+      "screen": {},
+      "payments": {},
+      "account_linking": {}
+    }
   },
   "session": {
-    "new": true,
-    "message_id": 4,
-    "session_id": "2eac4854-fce721f3-b845abba-20d60",
-    "skill_id": "3ad36498-f5rd-4079-a14b-788652932056",
-    "user_id": "AC9WC3DF6FCE052E45A4566A48E6B7193774B84814CE49A922E163B8B29881DC"
+    "message_id": 0,
+    "session_id": "26ac22c5-66db-4f47-a466-74bf1efc2609",
+    "skill_id": "8360d7f7-3f63-49a2-8b2e-89474a4d9087",
+    "user": {
+      "user_id": "509E1794C78925CB0722C32A63389952093D09E9CCB85735FD663EAFCF612C31"
+    },
+    "application": {
+      "application_id": "D4AB8B932DA7656EBE6ACF3A82FCEA1372114380AD6F665C821A1EBBF2D25730"
+    },
+    "user_id": "D4AB8B932DA7656EBE6ACF3A82FCEA1372114380AD6F665C821A1EBBF2D25730",
+    "new": true
+  },
+  "request": {
+    "command": "",
+    "original_utterance": "",
+    "nlu": {
+      "tokens": [],
+      "entities": [],
+      "intents": {}
+    },
+    "markup": {
+      "dangerous_context": false
+    },
+    "type": "SimpleUtterance"
   },
   "version": "1.0"
 }
