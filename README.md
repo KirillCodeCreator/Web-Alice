@@ -23,4 +23,4 @@ http://127.0.0.1:5000/post
 
 ## Тестирование из сети интернет
 ### Адрес для Postman
-https://lucky-ruby-cartoon.glitch.me/port
+https://lucky-ruby-cartoon.glitch.me/post
